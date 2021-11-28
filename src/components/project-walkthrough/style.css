@@ -10,8 +10,8 @@
 }
 
 .gallery-card img {
-    height: 400px;
-    width: 450px;
+    max-height: 100%;
+    width: 100%;
 }
 
 .video-sec {
@@ -23,6 +23,11 @@
     .video-sec {
         width: 250px;
         height: 200px;
+    }
+
+    .gallery-card img {
+        max-height: 55%;
+        width: 100%;
     }
     
 }
