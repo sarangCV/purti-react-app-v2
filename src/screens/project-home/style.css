@@ -1,0 +1,130 @@
+
+.border-sec-project-home {
+    margin: 70px 10px;
+}
+
+.project-home-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: end;
+}
+
+.project-home-header .project-logo img {
+    width: 15%;
+    max-width: 100%;
+}
+/* PROJECT INFO */
+.project-info {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    padding: 2px;
+    width: 40%;
+    background-color: #ededed ;
+    color: #4a2e23;
+}
+.project-info-inner-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* border-top: 1px solid rgb(202, 202, 202); */
+    margin: 0 10px;
+}
+.project-info-inner-row-first {
+    border: none !important;
+}
+.project-info-inner-row div {
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 5px;
+}
+
+/* PROJECT MENU */
+.project-home-menu {
+    display: flex;
+    flex-wrap: wrap;
+    /* overflow-x: scroll; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+    border: 2px solid #cdcdcd;
+    border-radius: 5px;
+    /* border-bottom: 2px solid #cdcdcd; */
+    padding: 20px 0;
+}
+
+.project-home-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.project-home-footer button {
+    width: 130px;
+    height: 45px;
+    margin-left: 10px;
+}
+
+.project-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    height: 150px;
+    width: 200px;
+}
+
+@media only screen and (max-width: 475px) {
+    .container-sec-project-home {
+        height: auto;
+    }    
+    .border-sec-project-home {
+        margin: 70px 0px;
+        width: 95%;
+    }
+    .project-home-header {
+        flex-direction: column;
+    }
+    .project-home-header .project-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .project-home-header .project-logo img {
+        width: 50%;
+        max-width: 100%;
+    }
+    
+    .project-home-menu {
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 20px 0px !important;
+    }
+    .project-home-menu::-webkit-scrollbar {
+        display: none;
+    }
+    .project-info {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .project-info-inner-row {
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        border-top: none;
+        text-align: center;
+    }
+    .project-home-footer {
+        justify-content: space-around;
+    }
+}

@@ -1,0 +1,10 @@
+.project-home-menu-floor-plan {
+    overflow-x: unset;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 475px) {
+    .project-home-menu-floor-plan {
+        flex-wrap: wrap;
+    }
+}

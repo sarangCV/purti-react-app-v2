@@ -1,0 +1,31 @@
+.dashboard-card {
+    width: 250px;
+    height: 165px;
+    margin: 0 5px;
+    background-color: #ededed !important;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+    color: #4a2e23;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.dashboard-card img {
+    width: 65%;
+    max-width: 100%;
+}
+.dashboard-card:hover {
+    background-color: rgb(215 215 215) !important;
+    cursor: pointer;
+    transition: 0.3s;
+}
+@media only screen and (max-width: 475px) {
+    .dashboard-card {
+        width: 160px;
+        height: 105px;
+        margin: 10px;
+    }
+
+}

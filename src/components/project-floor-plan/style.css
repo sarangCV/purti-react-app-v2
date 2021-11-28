@@ -1,0 +1,37 @@
+.floor-plan-card {
+    width: 230px;
+    height: 120px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    background-color: #ededed !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    border: 1px solid #e3e3e3; 
+}
+.floor-plan-card:hover {
+    background-color: rgb(215 215 215) !important;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.floor-plan-card img {
+    height: 26px;
+    width: 26px;
+    margin-bottom: 10px;
+}
+
+.floor-plan-card h3 {
+    font-size: 16px;
+    color: #4a2e23;
+}
+
+@media only screen and (max-width: 475px) {
+    .floor-plan-card {
+        min-width: 155px;
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+}
